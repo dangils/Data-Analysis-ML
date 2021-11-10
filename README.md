@@ -1,3 +1,8 @@
+>cmd  
+>ipynb 파일 위치로 이동  
+>jupyter nbconvert --to <html> <Untitled0.ipynb>  
+>ex) jupyter nbconvert --to html Untitled0.ipynb
+
 # Data-Analysis-ML
 차량 스펙 데이터 분석 및 연비 예측
 
@@ -19,5 +24,32 @@ Python , Google-Colab , pandas, scikit-learn
    
 
  ## 예측 결과 산출  
-   산출한 회귀식을 바탕으로 분석 모델에 독립변수 데이터를 기입하여 예측값 확인
+   산출한 회귀식을 바탕으로 분석 모델에 독립변수 데이터를 기입하여 예측값 확인  
+ 
+<hr>  
+   
+ 
+ # Covid19-Data-seoul(2021.01~10 month)
+ 
+## 프로젝트 목표  
+서울시 코로나19 확진자 현황 데이터를 분석하여 유의미한 정보 도출  
+데이터 분석을 위한 데이터 정제, 특성 분석, 시각화  
+ 
+## 분석 과정  
+데이터 수집  
+코로나 감염 데이터를 수집하여 DataFrame 구조 확인  
+
+데이터 전처리  
+유용한 데이터만 사용하기 위한 데이터 전처리  
+
+데이터 시각화  
+각 변수 별로 추가적인 정제를 하여 시각화를 통한 데이터의 특성 파악  
+  
+데이터 출처 :  
+http://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do
+ 
+ 
+ 
+ 
+ 
  
