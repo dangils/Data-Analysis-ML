@@ -1,5 +1,5 @@
-> ipynb 파일 html 변환방법
->cmd  
+>ipynb 파일 html 변환방법  
+>cmd open  
 >ipynb 파일 위치로 이동  
 >jupyter nbconvert --to <html> <Untitled0.ipynb>  
 >ex) jupyter nbconvert --to html Untitled0.ipynb
